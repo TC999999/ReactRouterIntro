@@ -1,0 +1,18 @@
+.soda {
+  height: 100%;
+  position: relative;
+}
+
+.message-and-cans {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.diet-coke-img-div {
+  margin: 50px;
+}
+
+.diet-coke-img {
+  height: 200px;
+  width: 200px;
+}

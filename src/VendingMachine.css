@@ -1,0 +1,63 @@
+.vending-machine {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets-global.website-files.com/63b496fbcb7a6e244e1928b2/645aaba105542055b8399dbd_kenny-eliason-C0V7dWFVnec-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.vending-machine-messages {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.vending-machine-intro {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pick-a-snack {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: solid;
+  border-radius: 20px;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.link {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.pick-a-snack a {
+  color: white;
+  text-decoration: none;
+}
+
+.pick-a-snack a:hover {
+  color: purple;
+  text-decoration: underline;
+}
